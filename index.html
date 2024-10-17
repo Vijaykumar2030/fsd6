@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Schedule App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="schedule-container">
+    <h1>Morning <span class="bb">Schedule</span></h1>
+    
+    <div id="activity-container" class="activity-container">
+      <h2>Current Activity: <span id="current-activity">Wake Up</span></h2>
+    </div>
+
+    <div class="timer">
+      <span class="time">Time Left for this task: <span id="timer">300</span> seconds</span>
+    </div>
+
+    <div class="progress-bar" id="progress-bar"></div>
+
+    <div class="controls">
+      <button id="next-activity-btn" class="btn">Next Activity</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+      <h2>Morning Schedule Completed!</h2>
+      <button id="restart-btn" class="btn restart-btn">Restart Schedule</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
